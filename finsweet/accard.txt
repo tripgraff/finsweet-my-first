@@ -1,0 +1,87 @@
+<ul class="faq_acc">
+                            <li class="faq__acc-item">
+                                <a class="faq__acc-link faq__acc-link--active" href="#">
+                                    <div class="faq__acc-head">How long should a car repair take?</div>
+                                    <p class="faq__acc-text">I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet</p>
+                                </a>
+                            </li>
+                            <li class="faq__acc-item">
+                                <a class="faq__acc-link" href="#">
+                                    <div class="faq__acc-head">How long should a car repair take?</div>
+                                    <p class="faq__acc-text">I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet</p>
+                                </a>
+                            </li>
+                            <li class="faq__acc-item">
+                                <a class="faq__acc-link" href="#">
+                                    <div class="faq__acc-head">How long should a car repair take?</div>
+                                    <p class="faq__acc-text">I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet</p>
+                                </a>
+                            </li>
+                            <li class="faq__acc-item">
+                                <a class="faq__acc-link" href="#">
+                                    <div class="faq__acc-head">How long should a car repair take?</div>
+                                    <p class="faq__acc-text">I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet</p>
+                                </a>
+                            </li>
+                            <li class="faq__acc-item">
+                                <a class="faq__acc-link faq__acc-link--active" href="#">
+                                    <div class="faq__acc-head">How long should a car repair take?</div>
+                                    <p class="faq__acc-text">I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet</p>
+                                </a>
+                            </li>
+                        </ul>
+
+css
+
+.faq__acc-item {
+    margin-bottom: 12px;
+    margin-left: 194px;
+    margin-right: 193px;
+    background-color: #FFFFFF;
+}
+
+.faq__acc-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq__acc-head {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.72px;
+    padding-top: 40px;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+
+.faq__acc-head::before,
+.faq__acc-head::after {
+    content: "";
+    position: absolute;
+    top: 78%;
+    left: 90%;
+    width: 17px;
+    height: 2px;
+    background-color: #de9090;
+    border-radius: 2px;
+}
+
+
+.faq__acc-head::after {
+    transform: rotate(90deg);
+    transition: all .3s;
+}
+
+.faq__acc-text {
+    color: #939191;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+    width: 701.264px;
+    padding-bottom: 38px;
+    margin-left: 40px;
+}
+
+.faq__acc-link--active .faq__acc-head::after {
+    transform: rotate(0deg);
